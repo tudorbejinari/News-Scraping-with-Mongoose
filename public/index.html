@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="UTF-8">
+    <title>Scraping With Mongoose</title>
+    <style>
+      body { background-color:#29B3BC;
+      color: white; 
+      }
+      .logo{
+    width: 230px;
+    margin-left: 250px;
+   
+}
+h1{margin-left: 150px;
+  text-shadow: 1px 1px red; 
+
+}
+      #wrapper {
+        margin-left: 20px;
+        margin-right: auto;
+        padding-top: 5%;
+      }
+      #articles {
+        display: inline-block;
+        overflow: auto;
+        width: 70%;
+        height: 700px;
+        font-weight: 700;
+        
+      }
+    
+      #notes {
+        float: right;
+        width: 30%;
+      }
+      textarea, input {
+        display: block;
+        width: 100%;
+        background-color: #FCF5C7;
+      }
+      input {
+        height: 36px;
+        font-size: 24px;
+      }
+      textarea {
+        height: 200px;
+        font-size: 18px;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="wrapper">
+      <img class="logo" src="./image.jpg">
+      <h1>Breaking News & Top Stories</h1>
+      <h2><strong>Your trusted source for breaking news,videos and the latest top storiews in world! </strong></h2>
+      <div id="articles"></div>
+      <div id="notes"></div>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="app.js"></script>
+  </body>
+</html>
